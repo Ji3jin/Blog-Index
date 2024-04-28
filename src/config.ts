@@ -6,25 +6,25 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       {
         title: "ChatGPT代理",
         url: "https://chat.lify.vip/chat",
-        icon: "",
+        icon: "/assets/daili.svg",
         // color: "#0171CD",
       },
       {
         title: "Kimi大模型",
         url: "https://kimi.moonshot.cn/",
-        icon: "",
+        icon: "/assets/kimi.svg",
         // color: "#0171CD",
       },
       {
         title: "讯飞星火公文助手",
         url: "https://gw.iflydocs.com/",
-        icon: "",
+        icon: "/assets/gongwen.svg",
         // color: "#0171CD",
       },
       {
         title: "笔灵AI写作",
         url: "https://ibiling.cn/",
-        icon: "",
+        icon: "/assets/wcopy.svg",
         // color: "#0171CD",
       }
     ],
@@ -58,7 +58,7 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "Plant-Trees",
+  BLOG_NAME: "嘟嘟爱种树的Blog",
   /**
    * 个人博客链接
    */

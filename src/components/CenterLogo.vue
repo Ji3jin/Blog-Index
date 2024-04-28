@@ -126,7 +126,7 @@ onMounted(() => {
     }
     .hello {
       color: #ffffff;
-      width: 18.75rem;
+      width: 32rem;
       text-align: center;
       position: absolute;
       transform: translate(-50%, -50%);
