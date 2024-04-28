@@ -1,51 +1,54 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "AI工具",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
+        title: "ChatGPT代理",
+        url: "https://chat.lify.vip/chat",
         icon: "",
-        color: "#0171CD",
+        // color: "#0171CD",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
+        title: "Kimi大模型",
+        url: "https://kimi.moonshot.cn/",
         icon: "",
+        // color: "#0171CD",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
+        title: "讯飞星火公文助手",
+        url: "https://gw.iflydocs.com/",
         icon: "",
+        // color: "#0171CD",
       },
+      {
+        title: "笔灵AI写作",
+        url: "https://ibiling.cn/",
+        icon: "",
+        // color: "#0171CD",
+      }
     ],
   },
   {
-    title: "示例分类2",
+    title: "编程手册",
   },
   {
-    title: "示例分类3",
+    title: "数据治理",
   },
   {
-    title: "示例分类4",
+    title: "实用资源",
   },
-  {
-    title: "示例分类5",
-  },
-  {
-    title: "友情链接",
-    sites: [
-      {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
-      },
-    ],
-  },
+  // {
+  //   title: "友情链接",
+  //   sites: [
+  //     {
+  //       title: "EsunR Blog",
+  //       description: "EsunR 的博客",
+  //       url: "https://www.esunr.xyz",
+  //       icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
+  //     },
+  //   ],
+  // },
 ];
 
 /** Website 配置（2023.3.29 已废弃） */
@@ -55,11 +58,11 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "EsunR-Blog",
+  BLOG_NAME: "Plant-Trees",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://www.dodoai.cn/blog",
   /**
    * 指定中心 LOGO 图片地址
    */
@@ -67,7 +70,7 @@ const GLOBAL_CONFIG = {
   /**
    * 个人 Github 链接
    */
-  GITHUB_URL: "https://github.com/EsunR",
+  GITHUB_URL: "https://github.com/Ji3jin",
   /**
    * 背景图片地址
    */
@@ -75,22 +78,21 @@ const GLOBAL_CONFIG = {
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "京ICP证000001号",
+  ICP: "冀ICP备2024046320号-1",
   ICP_URL: "https://beian.miit.gov.cn/",
   FOOTER_INFO: true,
   /**
    * 网站欢迎标语
    */
   SLOGANS: [
-    "欢迎拜访",
-    "歡迎拜訪",
-    "Welcome, my friend!",
-    "訪問へようこそ",
-    "嗨，别来无恙",
-    "不忘初心，一生浪漫",
-    "最近还好吗？",
-    "流星，落花，萤火",
-    "马车越空，晃荡越响",
+    // "欢迎拜访",
+    // "Welcome, my friend!",
+    // "嗨，别来无恙",
+    // "不忘初心，一生浪漫",
+    // "最近还好吗？",
+    // "流星，落花，萤火",
+    // "马车越空，晃荡越响",
+    "种一棵树最好的时间是十年前，其次是现在",
   ],
   /**
    * Website 分类配置
@@ -104,9 +106,9 @@ const GLOBAL_CONFIG = {
    * 网站 Title Keywords Description 的配置，用于 SEO
    */
   TKD: {
-    title: "My Blog Index",
-    keywords: "Blog, Index, Index Page",
-    description: "This is my personal blog index page.",
+    title: "Data & AI Resource",
+    keywords: "BigData, AI, Resource, Python, Java, Hadoop, Spark, Presto, 大数据, 数据治理, 数据管理, AI工具, 教程, 副业",
+    description: "嘟嘟工具箱.",
   },
 };
 
